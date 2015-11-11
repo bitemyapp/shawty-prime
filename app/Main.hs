@@ -52,6 +52,7 @@ shortyCreated resp shawty =
             , " shorty is: ", TL.pack (linkShorty shawty)
             ]
 
+shortyAintUri :: TL.Text -> TL.Text
 shortyAintUri uri =
   TL.concat [ uri
             , " wasn't a url, did you forget http://?"
